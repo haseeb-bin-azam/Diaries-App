@@ -1,0 +1,18 @@
+.diaryCards {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 80px;
+    color: black;
+    
+}
+
+create-new-button {
+    font-size: 200px;
+}  

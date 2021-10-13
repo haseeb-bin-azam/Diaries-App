@@ -1,0 +1,19 @@
+.entryCards {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_area a {
+    font-size: 20px;
+    color: #593eec;
+}
+
+.button_area button span {
+    font-size: 40px;
+    color: black;
+    margin-top: 40px;
+}

@@ -1,0 +1,150 @@
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+/*ICON*/
+
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+/*ANIMATE*/
+
+@import url(//daneden.github.io/animate.css/animate.min.css);
+@import url(https://jaruwat.pohong.me/theme/default/css/bubbles.css);
+body {
+    margin: 0;
+    line-height: 1.5;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+    font-weight: 300;
+    color: white;
+    
+    background: url('https://images.unsplash.com/photo-1572273869941-45732d6f581c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRpYXJ5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(83, 54, 54, 0.3);
+    padding: 5px;
+    border-radius: 5px;
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    z-index: 2000;
+}
+
+.container a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.container a:hover {
+    text-shadow: 2px 2px 4px #10707f;
+}
+
+.container hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.container input[type=text], input[type=password], input[type=email] {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 80%;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    font-size: 18px;
+    font-weight: 300;
+    text-indent: 0px;
+}
+
+
+.container input[type=text]:hover, input[type=password]:hover, input[type=email]:hover {
+    text-indent: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.container input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+    text-indent: 0px;
+    width: 85%;
+    color: black;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+input[type=submit] {
+    border: 0;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 3px;
+    width: 250px;
+    cursor: pointer;
+    font-size: 19px;
+    background-color: #005ce6;
+    border-color: #10707f;
+    border-radius: 3px;
+    width: 90%;
+    height: 40px;
+}
+
+.container input[type=submit]:hover {
+    background-color: #0066ff;
+    border-color: #10707f;
+    box-shadow: 0 0 0 2px rgba(0, 92, 230, .5);
+}
+
+
+.custom-btn {
+    margin-top: 10px;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+.btn-12 {
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    box-shadow: none;
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    -webkit-perspective: 230px;
+    perspective: 230px;
+}
+
+.btn-12 span {
+    background-color: #005ce6;
+    border-color: #10707f;
+    display: block;
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
